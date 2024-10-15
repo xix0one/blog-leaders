@@ -1,0 +1,174 @@
+html {
+    height: 100vh;
+    background: rgb(248,224,164);
+    background: 
+        linear-gradient( 
+            0deg, 
+            rgb(248,224,164) 20%,
+            rgb(250, 229, 176)  47%, 
+            rgb(248,224,164) 83%
+        );
+}
+
+body {
+    margin: 0;
+    margin-top: 1em;
+    padding: 0;
+    font: normal normal 14px Arial, Tahoma, Helvetica, FreeSans, sans-serif;
+}
+
+section {
+    margin-top: 20px;
+    width: 80%;
+    border-right: 1px solid #ececec;
+}
+
+footer {
+    margin: 2em;
+}
+
+main {
+    border-bottom: 1px solid #ececec;
+}
+
+h1 {
+    text-shadow: 1px 1px 1px black;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+aside h2 {
+    font-size: 1.3rem;
+}
+
+aside {
+    margin-top: 0.3em;
+}
+
+.main-div {
+    display: flex;
+}
+
+.header-box {
+    font-size: 2em;
+    color: white;
+    background-color: #e27a19;
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(0, 0, 0, 0.15)
+    );
+    padding: .3em;
+    padding-left: 1em;
+}
+
+.main-box {
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    padding: .8em;
+    box-shadow: 1px 1px 5px rgb(233, 212, 158);
+}
+
+nav {
+    background-color: rgb(250, 250, 250);
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0),
+        rgba(112, 112, 112, 0.15)
+    );
+}
+
+ul {
+    padding: 0;
+}
+
+.nav-ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    font-size: 1.2em;
+    border-bottom: 1px solid #ececec;
+    font-size: 14px;
+}
+
+.main-div h2 {
+    text-align: center;
+}
+
+.aside-ul {
+    margin: 1em;    
+}
+
+.div-aside-ul {
+    padding-left: 1em;
+    font-size: 12px;
+    color: rgb(170, 170, 170);
+}
+
+.div-aside-ul a:link,
+.div-aside-ul a:visited {
+    color: rgb(170, 170, 170);
+    text-decoration: none;
+    color: #e27a19;
+}
+
+.div-aside-ul a:hover {
+    color: #fc9c1f;
+    border-bottom: 1px solid;
+}
+
+p {
+    text-align: center;
+}
+
+.nav-item {
+    border-left: 1px solid #ffffff;
+    border-right: 1px solid #ececec;
+    padding: 0.6em;
+    display: block;
+}
+
+.nav-ul a:link, 
+.nav-ul a:visited {
+    text-decoration: none;
+    color: rgb(151, 149, 149);
+}
+
+.nav-ul a:hover {
+    background-color: rgb(207, 206, 206);
+    color: black;
+}
+
+.deactive-nav-li {
+    background-color: rgb(207, 206, 206);
+}
+
+.photo-div-teams {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border: 1px solid #ececec;
+    padding: 5px;
+    box-shadow: 1px 1px 5px rgb(207, 206, 206);
+    max-width: 200px;
+    max-height: none;
+}
+
+.info-under-photo-name {
+    font-size: 1.2rem;
+    word-spacing: 2px;
+}
+
+.info-under-photo-another {
+    padding: 1em;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: justify;
+    text-indent: 50px;
+}
