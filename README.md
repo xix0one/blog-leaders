@@ -1,2 +1,2 @@
 Шаблон веб-страниц для муниципального конкурса "Лидеры образования".\ 
-Смотреть [здесь](a href="https://xix0one.github.io/blog-leaders/).
+Смотреть [здесь](a href="https://xix0one.github.io/blog-leaders).
