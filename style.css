@@ -149,7 +149,7 @@ p {
 
 .photo-div-teams {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 img {
