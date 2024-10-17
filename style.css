@@ -21,6 +21,7 @@ section {
     margin-top: 20px;
     width: 80%;
     border-right: 1px solid #ececec;
+    padding: 1em;
 }
 
 footer {
@@ -149,7 +150,9 @@ p {
 
 .photo-div-teams {
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
+    justify-content: space-around;
 }
 
 img {
